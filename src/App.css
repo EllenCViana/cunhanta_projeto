@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Open+Sans:wght@300;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    width: 1920px;
+    height: 900px;
+    margin: 0;
+}
+
+.bg {
+    height: 458px;
+    background-color: #DC9200;
+}
+  
+.container {
+    display: flex; 
+    height: 458px; 
+}
+
+/*ladoA*/
+.section1 div {
+    margin: 156px 0 0 113px;
+}
+
+.section1 h2 {
+    margin-bottom: 22px;
+}
+.section1 h1, h2, p {
+    color: #fff;
+    margin: 0;
+}
+
+.section1 h1 {   
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section1 h2 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: none;
+}
+
+.section1 p {
+    max-width: 455px;
+    font-size: 0.813rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: none;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.section2 {
+    flex: 1;
+}
+
+
+/*ladoB*/
+.section2 div {
+    border-radius: 40px;
+    background-color: #fff;
+    width: 469px;
+    height: 741px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.20));
+    margin: 58px 0 0 115px;
+    padding-left: 70px;
+
+}
+
+.section2 h2 {
+    justify-content: center;
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 41px;
+    
+}
+
+.boasvindas {
+    max-width: none;
+    margin-right: 7px;
+
+}
+
+.section2 .color {
+    color: #FFA800;
+
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.section2 h1 {
+    color: #FFA800;
+    width: 157px;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 49px 0 39px 0;
+}
+
+.section2 .test {
+    display: flex;
+}
+
+.section2 div form .label {
+    color: #000;
+    font-size: 1.063rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.section2 input {
+    width: 374px;
+    border-radius: 9px;
+    background: #FFF;
+    color: #808080;
+    border: 1px solid #ADADAD;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 13px;
+    padding: 19px 0 17px 22px;
+}
+
+#nome_email  {
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+#senha {
+    margin-bottom: 3px;
+}
+
+#nome_email:focus, #senha:focus {
+    outline: none; 
+    border: 2px solid #4285F4; 
+    background-color: #f5f5f5;
+}
+
+.section2 div form .esqueceusenha {
+    color: #4285F4;
+    font-size: 0.813rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 259px;
+    text-decoration: none;
+
+}
+
+.section2 div form button {
+    width: 400px;
+    height: 54px;
+    border: none;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.20));
+    border-radius: 10px;
+    background: #FFA800;
+    margin-top: 49px;
+    margin-bottom: 8px;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section2 div form .naopossuiconta {
+    width: 182px;
+    height: 24px;
+    color: #8D8D8D;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
